@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: streaming-backend
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start:prod
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        value: mongodb+srv://yg123yash_db_user:OpZ7wNmeKnIvETij@cluster0.lyubkak.mongodb.net/?appName=Cluster0 # IMPORTANT: Replace with your actual MongoDB connection string
