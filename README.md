@@ -224,6 +224,10 @@ For a production setup, a CI/CD pipeline would be implemented using tools like G
 
 ## Deployment (Planned)
 
+### Live Demo
+
+You can access a live demo of the application here: [https://streaming-backend-ruddy.vercel.app/](https://streaming-backend-ruddy.vercel.app/)
+
 The service can be deployed using Docker to any cloud provider. An example `Dockerfile` would be:
 
 ```dockerfile
